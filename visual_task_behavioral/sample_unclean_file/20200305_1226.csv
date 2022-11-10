@@ -1,0 +1,137 @@
+Start of experiment, 20200305_1226
+Source file name: shape_dotsB_C.txt
+Screen resolution h: 1920
+Screen resolution v: 1080
+Diagonal inch: 27,0
+Horizontal angle: 38,88
+Screen height mm: 336,2211581400089
+Screen width mm: 597,7265033600158
+Distance mm: 846,7808531627567
+Pixel to angle multiplier: 0,02025
+Patient name: beha001_050320NG
+Data loaded, variable PARAM = Field_Scale21
+Experiment type = Staircase
+Dots/sr (S+ background layer): 9501,973933863635
+Dots/angular deg^2 (S+ background layer): 2,894491299733541
+Dot size angular deg^2 (S+ background layer): 0,10125
+Dots/sr (S- background layer): 9501,973933863635
+Dots/angular deg^2 (S- background layer): 2,894491299733541
+Dot size angular deg^2 (S- background layer): 0,10125
+Dots/sr (S+ shape layer): 9501,973933863635
+Dots/angular deg^2 (S+ shape layer): 2,894491299733541
+Dot size angular deg^2 (S+ shape layer): 0,10125
+Dots/sr (S- shape layer): 9501,973933863635
+Dots/angular deg^2 (S- shape layer): 2,894491299733541
+Dot size angular deg^2 (S- shape layer): 0,10125
+Dots/sr (S+ noise layer): 7709,512319564816
+Dots/angular deg^2 (S+ noise layer): 2,3484716427858343
+Dot size angular deg^2 (S+ noise layer): 0,10125
+Dots/sr (S- noise layer): 7709,512319564816
+Dots/angular deg^2 (S- noise layer): 2,3484716427858343
+Dot size angular deg^2 (S- noise layer): 0,10125
+Starting experiment number 1...
+Event time;Event type;Trial;Duration;Selection;Correct;Success;Experimentator;External Stimuli;Reversal;Staircase level
+43,433;Screen change
+43,946;Trial display
+44,844;Right chosen
+45,164;Trial summary;1;1,217;r;r;1;;;0;0,74
+45,165;Screen change
+45,677;Trial display
+46,334;Right chosen
+46,646;Trial summary;2;0,968;r;r;1;;;0;0,6727272727272726
+46,647;Screen change
+47,156;Trial display
+47,816;Right chosen
+48,133;Trial summary;3;0,977;r;r;1;;;0;0,6115702479338841
+48,134;Screen change
+48,645;Trial display
+49,215;Left chosen
+49,564;Trial summary;4;0,919;l;l;1;;;0;0,5559729526671674
+49,568;Screen change
+50,081;Trial display
+50,689;Left chosen
+51,002;Trial summary;5;0,921;l;l;1;;;0;0,5054299569701521
+51,003;Screen change
+51,511;Trial display
+52,182;Right chosen
+52,533;Trial summary;6;1,022;r;r;1;;;0;0,45948177906377463
+52,538;Screen change
+53,045;Trial display
+53,608;Left chosen
+53,911;Trial summary;7;0,866;l;l;1;;;0;0,41771070823979506
+53,912;Screen change
+54,423;Trial display
+55,229;Left chosen
+55,544;Trial summary;8;1,121;l;l;1;;;0;0,37973700749072276
+55,545;Screen change
+56,056;Trial display
+56,807;Right chosen
+57,128;Trial summary;9;1,072;r;r;1;;;0;0,3452154613552025
+57,129;Screen change
+57,638;Trial display
+58,168;Left chosen
+58,199;Trial summary;10;0,561;l;r;0;;;1;0,3138322375956386
+58,2;Screen change
+58,706;Trial display
+59,298;Left chosen
+59,626;Trial summary;11;0,919;l;l;1;;;1;0,3452154613552025
+59,631;Screen change
+60,141;Trial display
+61,268;Right chosen
+61,612;Trial summary;12;1,471;r;r;1;;;0;0,3138322375956386
+61,615;Screen change
+62,126;Trial display
+62,78;Left chosen
+63,09;Trial summary;13;0,964;l;l;1;;;0;0,28530203417785327
+63,091;Screen change
+63,599;Trial display
+64,53;Left chosen
+64,872;Trial summary;14;1,273;l;l;1;;;0;0,25936548561623024
+64,875;Screen change
+65,385;Trial display
+66,445;Right chosen
+66,764;Trial summary;15;1,379;r;r;1;;;0;0,23578680510566383
+66,765;Screen change
+67,279;Trial display
+68,255;Right chosen
+68,599;Trial summary;16;1,32;r;r;1;;;0;0,21435164100514892
+68,6;Screen change
+69,107;Trial display
+71,035;Right chosen
+71,34;Trial summary;17;2,233;r;r;1;;;0;0,194865128186499
+71,341;Screen change
+71,852;Trial display
+72,604;Left chosen
+72,919;Trial summary;18;1,067;l;l;1;;;0;0,1771501165331809
+72,921;Screen change
+73,429;Trial display
+74,688;Left chosen
+74,706;Trial summary;19;1,278;l;r;0;;;1;0,16104556048470992
+74,708;Screen change
+75,215;Trial display
+76,395;Right chosen
+76,738;Trial summary;20;1,524;r;r;1;;;1;0,1771501165331809
+Field_Scale21 value for positive stimuli: 1.0
+Field_Scale21 starting value for negative stimuli: 0.63
+Trial number;PARAM;THRESHOLD;POSITIVE;
+1;0,63;0,8753445780039084;1,0;
+2;0,6636363636363637;0,8753445780039084;1,0;
+3;0,694214876033058;0,8753445780039084;1,0;
+4;0,7220135236664162;0,8753445780039084;1,0;
+5;0,7472850215149239;0,8753445780039084;1,0;
+6;0,7702591104681127;0,8753445780039084;1,0;
+7;0,7911446458801025;0,8753445780039084;1,0;
+8;0,8101314962546387;0,8753445780039084;1,0;
+9;0,8273922693223987;0,8753445780039084;1,0;
+10;0,8430838812021807;0,8753445780039084;1,0;
+11;0,8273922693223987;0,8753445780039084;1,0;
+12;0,8430838812021807;0,8753445780039084;1,0;
+13;0,8573489829110734;0,8753445780039084;1,0;
+14;0,8703172571918849;0,8753445780039084;1,0;
+15;0,8821065974471681;0,8753445780039084;1,0;
+16;0,8928241794974255;0,8753445780039084;1,0;
+17;0,9025674359067505;0,8753445780039084;1,0;
+18;0,9114249417334095;0,8753445780039084;1,0;
+19;0,9194772197576451;0,8753445780039084;1,0;
+20;0,9114249417334095;0,8753445780039084;1,0;
+76,76;Screen change
