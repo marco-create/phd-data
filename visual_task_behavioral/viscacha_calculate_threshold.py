@@ -1,13 +1,13 @@
 import pandas as pd
 import glob, os, re
 
-CONDITION = "YG" # NG or YG
-CODE_GROUP = "RP" # SD or K_ or RP
-NAME_GROUP = "RetinitisPigmentosa" # Stargardt or Controls or RetinitisPigmentosa
+CONDITION = "NG" # NG or YG
+CODE_GROUP = "SD" # SD or K_ or RP
+NAME_GROUP = "Stargardt" # Stargardt or Controls or RetinitisPigmentosa
 csv_files = []
 
 csv_files = []
-sbj_path = f"./group - {NAME_GROUP}/retpigm{CODE_GROUP}0*/*0*{CONDITION}/shape*/*.csv"
+sbj_path = f"../../../ViscachaBehav/group - {NAME_GROUP}/retpigm{CODE_GROUP}0*/*0*{CONDITION}/shape*/*.csv"
 
 for file in glob.glob(sbj_path):
     subject = re.search(fr"\bretpigm{CODE_GROUP}0(\d+)", file)
@@ -44,4 +44,5 @@ df = pd.DataFrame(csv_files, columns=["ID", "task", "thr"])
 new = df.drop_duplicates(subset=["ID", "task"], keep="last")
 new = new.drop(new[new.thr == "NA"].index).astype({"thr": "float"})
 
-new.to_excel(f"./group - {NAME_GROUP}/{CONDITION.lower()}.xlsx", index=False)
+# new.to_excel(f"./group - {NAME_GROUP}/{CONDITION.lower()}.xlsx", index=False)
+new.to_excel(f"./{CONDITION.lower()}.xlsx", index=False)
